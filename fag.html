@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ | FGYG Consulting</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Frequently Asked Questions</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="pricing.html">Pricing</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>How Can We Help You?</h2>
+
+<p>
+Find answers to common questions about our services.
+</p>
+
+</section>
+
+<section class="faq-container">
+
+<div class="faq-item">
+
+<button class="faq-question">
+What documents are required for company registration?
+</button>
+
+<div class="faq-answer">
+<p>
+We generally require a copy of your ID,
+contact details and company information.
+</p>
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+How long does CIPC registration take?
+</button>
+
+<div class="faq-answer">
+<p>
+Typically 1 to 5 working days depending on processing times.
+</p>
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+What is CSD registration?
+</button>
+
+<div class="faq-answer">
+<p>
+The Central Supplier Database allows businesses
+to do business with government departments.
+</p>
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+Why do I need COIDA registration?
+</button>
+
+<div class="faq-answer">
+<p>
+COIDA helps employers comply with South African
+labour and compensation regulations.
+</p>
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+Do you provide website design services?
+</button>
+
+<div class="faq-answer">
+<p>
+Yes. We design, host and maintain professional websites.
+</p>
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+Which payment methods do you accept?
+</button>
+
+<div class="faq-answer">
+<p>
+We accept EFT, Yoco, Ozow and PayFast payments.
+</p>
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+Can I track my application online?
+</button>
+
+<div class="faq-answer">
+<p>
+Yes. Clients can log into the portal and monitor progress.
+</p>
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+Do you assist with tenders?
+</button>
+
+<div class="faq-answer">
+<p>
+Yes. We assist with tender documentation,
+registration and submission support.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Still Need Help?</h2>
+
+<p>
+Contact our team for assistance.
+</p>
+
+<a href="contact.html" class="btn">
+Contact Us
+</a>
+
+</section>
+
+<footer>
+
+<p>FGYG Consulting & Compliance Services</p>
+
+<p>Phone: +27 65 691 1520</p>
+
+<p>Email: consulting@thubalesha.co.za</p>
+
+</footer>
+
+<a
+href="https://wa.me/27656911520"
+class="whatsapp"
+target="_blank">
+
+💬 WhatsApp Us
+
+</a>
+
+<script>
+
+const questions =
+document.querySelectorAll(".faq-question");
+
+questions.forEach(question => {
+
+question.addEventListener("click", () => {
+
+const answer =
+question.nextElementSibling;
+
+if(answer.style.display === "block"){
+answer.style.display = "none";
+}
+else{
+answer.style.display = "block";
+}
+
+});
+
+});
+
+</script>
+
+</body>
+
+</html>
